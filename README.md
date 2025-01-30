@@ -30,6 +30,4 @@ O projeto é manutenido sazonalmente com o objetivo de preservar a integridade d
 ![protopersona+miguel](https://github.com/user-attachments/assets/dbfb64f2-18fa-4cca-896f-52231934e74c)
 
 - Interface:
-![image](https://github.com/user-attachments/assets/7f444baa-fc0b-423a-b929-5fa45ccb7286)
-![image (1)](https://github.com/user-attachments/assets/59629158-760b-47ae-a96b-467bdb57348f)
-
+](https://www.figma.com/design/Ivzd6p839yMJi5zKqOAD4K/Bellini-app?node-id=0-1&p=f)
