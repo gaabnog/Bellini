@@ -1,15 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&display=swap');
+
+
 body{
+    background-color: #debd9c;
+    margin: 0; 
+    padding: 0; 
+}
+
+
+main {
     background-color: #debd9c;
 }
 
-#header-div{
+header {
+    display: flex;
+    justify-content: center;
+}
+header{
+    background-color: #2d0d10;
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0 auto;
+    font-family: poppinsregular;
+    border-bottom: 2px solid #fff;
+    padding-bottom: 2px;
+    
 }
 
 .img-user-profile{
     width: 5%;
     height: auto;
+}
+
+li{
+    display: inline-block;  
+    margin: 20px;
+    font-size: large;
+  }
+
+.bellini-logo{
+    margin-left: 30px;
+    color: #fff;
+    font-size: 32px;
+    font-family: poppinsregular;
+    font-style: italic;
+}
+
+header a{
+    color: #fff;
+    text-decoration: none;
+    font-family: poppinssemibold;
+  }
+
+  header a:hover{
+    color:#daa696;
+    transition: 0.3s all;
+  }
+
+  #top-section1{
+    color: #2d0d10;
+    border-top: 5px solid #2d0d10;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 60px;
+    margin-left: 30px;
+    margin-right: 30px;
+    font-family: poppinsregular;
+    font-size: 16px;
+}
+
+.top-section{
+    margin-top: 30px;
+    color: #2d0d10;
+    border-top: 5px solid #2d0d10;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 30px;
+    margin-right: 30px;
+    font-family: poppinsregular;
+    font-size: 16px;
+}
+
+.prato{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin:0;
+    padding: 0;
+}
+
+.section{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5px;
+}
+
+.prato-img{
+    width: 42%;
+    border: 2px solid #2d0d10;
+    border-radius: 5%;
+}
+
+.subtitle-img{
+    margin-top: 5px;
+    font-family: poppinssemibold;
+    font-size: 15px;
+    color: #2d0d10;
+}
+
+
+footer {
+    font-family: poppinsregular;
+    background-color: #2d0d10;
+    color: white;          
+    padding: 2px;         
+    text-align: center;    
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    font-size: small;
+}
+
+.foot{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.endereco{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 0px;
+    margin: 0px;
+    padding-left: 20px;
+}
+
+.endereco h3{
+    line-height: 1.2;
+    margin-bottom: 3px;
+}
+
+#bellini-log{
+    padding-right: 20px;
+}
+
+.div-main{
+    display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 50px;
+  justify-content: center;
+  gap: 90px;
+}
+
+#h1-page{
+    font-size: 46px;
+    padding: 1%;
+    font-family: poppinsregular;
+    font-style: italic;
+    margin: 0px
+  }
+
+.textoprincipal{
+    color: #2d0d10;
+    font-family: poppinsregular;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    max-width: 300px;
+}
+
+main a:hover{
+    color:#fff;
+    transition: 0.5s all;
+}
+
+#h1-reserva{
+    margin: 40px;
+    font-family: poppinsregular;
+    color: #2d0d10;
+}
+
+
+.questionario{
+    color: #2d0d10;
+    font-family: poppinsregular;
+
+}
+
+.inputi{
+    color:white;
+    background-color: #2d0d10;
+    border: 3px solid #2d0d10;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#input-number{
+    width:40px ;
+    height:16px ;
+ 
+}
+
+#input-nome{
+    width:240px ;
+    height:18px ;
+   
+}
+
+#check{
+    padding: 0%;
+    margin: 0px;
+    display: flex;
+    gap: 10px;
+}
+
+#input-submit{
+    margin-top: 0px;
+    width:120px ;
+    height:26px ;
+    margin-bottom: 36px;
+}
+
+.questionario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#h3-gap{
+    margin-bottom: 0px;
 }
